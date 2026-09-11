@@ -1,0 +1,65 @@
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+.titulo {
+    font-weight: bold;
+    color: #212529;
+}
+
+.subtitulo {
+    color: #6c757d;
+    font-size: 18px;
+}
+
+.figura-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+    transition: 0.3s;
+}
+
+.figura-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.icono {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.text-muted {
+    text-align: center;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.resultado {
+    background-color: #f1f3f5;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.resultado strong {
+    margin-left: 8px;
+}
+
+footer {
+    color: #6c757d;
+}
